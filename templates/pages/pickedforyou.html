@@ -1,0 +1,103 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<div class="page-header">
+  <!-- Image -->
+  <div>
+	<img src="../../static/img/grocerybanner.jpeg" alt="Grocery Image" class="rounded" style="height:200px; width:100%;overflow:hidden;" >
+  </div>
+  
+
+  <!-- Merchant Info -->
+  <div class='row'>
+    <div class='container-fluid p-3' style="border-bottom:1px solid #cecece">
+      <div class='container-fluid'>
+      	<div style="float:left;">
+	  	    <h3>Piazza Market</h3>
+	  	    <p>Family-owned grocery • $
+	  	    <br>30-35 Min - Delivery   $0.99 Delivery Fee</p>
+  	    </div>
+  	    <div style="float:right;">
+  	    	<a href="/cart">
+	  	    <img src="../../static/img/cart.png" alt="Cart Image" class="rounded" style="height:20px; width:20px;">
+	  		</a>
+  	    </div>
+  	    <div style="clear: left;"/>
+      </div>
+    </div>
+  </div>
+ <br>
+	<!-- Buttons -->
+  <div class='row'>
+    <div class='container-fluid p-3' style="border-bottom:1px solid #cecece">
+      <a href="/recipe-carousel" class="btn btn-light btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Recipes</a>
+  	  <a href="/pickedforyou" class="btn btn-dark btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Picked for You</a>
+  	  <a href="/pickedforyou" class="btn btn-light btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Produce</a>
+  	  <a href="/pickedforyou" class="btn btn-light btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Snacks</a>
+  	  <a href="/pickedforyou" class="btn btn-light btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Beer</a>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- end of page header -->
+<div class='container-fluid p-3' style="border-bottom:1px solid #cecece">
+	<table class="table">
+	 <!--  <thead>
+	    <tr>
+	      <th scope="col">#</th>
+	      <th scope="col">First</th>
+	      <th scope="col">Last</th>
+	      <th scope="col">Handle</th>
+	    </tr>
+	  </thead> -->
+	  <tbody>
+	    <tr>
+	      <td>
+	     	<h6> Emergen-C Tangerine</h6>
+	     	<p>$14.99 • 20 Cal.<p>
+	      </td>
+	      <td><img src="../../static/img/emergenc.jpeg" alt="Emergen-C Image" style="height:50px; width:50px;"></td>
+	    </tr>
+	    <tr>
+	      <td>
+	     	<h6> Pistachios</h6>
+	     	<p>$4.99 • 20 Cal.<p>
+	      </td>
+	      <td><img src="../../static/img/pistachios.jpeg" alt="Pistachios Image" style="height:50px; width:50px;"></td>
+	    </tr>
+	    <tr>
+	      <td>
+	     	<h6> Ketchup</h6>
+	     	<p>$2.99 • 20 Cal.<p>
+	      </td>
+	      <td><img src="../../static/img/ketchup.jpeg" alt="Ketchup Image" style="height:50px; width:50px;"></td>
+	    </tr>
+
+	    <tr>
+	      <td>
+	     	<h6> Squash</h6>
+	     	<p>$5.99 • 20 Cal.<p>
+	      </td>
+	      <td><img src="../../static/img/squash.jpeg" alt="Squash Image" style="height:50px; width:50px;"></td>
+	    </tr>
+
+	    <tr>
+	      <td>
+	     	<h6> Seaweed </h6>
+	     	<p>$2.99 • 20 Cal.<p>
+	      </td>
+	      <td><img src="../../static/img/seaweed.jpeg" alt="Seaweed Image" style="height:50px; width:50px;"></td>
+	    </tr>
+	  </tbody>
+	</table>
+</div>
+
+
+
+
+<!-- <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p> -->
+
+{% endblock %}

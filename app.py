@@ -43,12 +43,38 @@ def login_required(test):
 
 @app.route('/')
 def home():
-    return render_template('pages/placeholder.home.html')
+    return render_template('pages/pickedforyou.html')
+    #return render_template('pages/placeholder.home.html')
+
+@app.route('/pickedforyou')
+def pickedforyou():
+    return render_template('pages/pickedforyou.html')
+    #return render_template('pages/placeholder.home.html')
+
+@app.route('/recipe-carousel')
+def recipe_carousel():
+    return render_template('pages/recipe-carousel.html')
+    #return render_template('pages/placeholder.home.html')
+
+@app.route('/recipe-expanded') #this is where you see all the ingredients
+def recipe_expanded():
+    return render_template('pages/recipe-expanded.html')
+    #return render_template('pages/placeholder.home.html')
+
+@app.route('/recipe-instructions') #how do we get a pop-up that can be dismissed
+def recipe_instructions():
+    return render_template('pages/recipe-instructions.html')
+    #return render_template('pages/placeholder.home.html')
+
+@app.route('/cart')
+def cart():
+    return render_template('pages/cart.html')
+    #return render_template('pages/placeholder.home.html')
 
 
-@app.route('/about')
-def about():
-    return render_template('pages/placeholder.about.html')
+# @app.route('/about')
+# def about():
+#     return render_template('pages/placeholder.about.html')
 
 
 @app.route('/login')
