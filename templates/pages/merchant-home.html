@@ -1,0 +1,259 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<!-- monitoring dashboard -->
+
+<div class="page-header">
+  <!-- Image -->
+  <div>
+	<img src="../../static/img/merchant-header.png" alt="Merchant Header Image" style="width:100%;overflow:hidden;" >
+  </div>
+
+  <div class='row'>
+  	<div class='col-3'>
+  		<div class='container-fluid'>
+  			<img src="../../static/img/merchant-sidebar2.png" alt="Merchant sidebar Image" style="width:100%;overflow:hidden;" >
+  		</div>
+
+  	</div>
+
+  	<div class='col'>
+  		<div class='container-fluid bg-light m-3'>
+  			<h3> Bundles Dashboard </h3>
+  			<br>
+  			<h4> Inventory </h4>
+
+
+  			<h4> Active Bundles </h4>
+
+  			<div class='row'>
+	  			<button type="button" class="btn btn-primary m-3" data-toggle="modal" data-target="#create-bundle">
+	  				Create new bundle
+	  			<button>
+  			</div>
+  			
+  			  <!-- Accordion -->
+
+		  <div class="accordion" id="accordionExample">
+			 
+		  <div class="card rounded-0">
+		    <div class="card-header bg-transparent" id="headingTwo">
+		      <h2 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				          <table class="table-borderless">
+						  <tbody>
+						    <tr>
+						    	<td><img src="../../static/img/food1.jpg" alt="Burger Image" style="height:70px; width:70px;"></td>
+						      <td style="text-align: right; vertical-align: middle">
+						     	<h6 style="color:black"> &emsp; Burger Grill</h6>
+						      </td>
+						      <td style="text-align: right; vertical-align: middle">
+							     	<h6 style="color:black"> &emsp; $7.99 • 400 Cal
+							     	</h6>
+					
+							      </td>
+							      </td>
+							      <td style="text-align: right; vertical-align: middle">
+							      	<a href="#">Edit</a> <br> <a href="#">Delete</a>
+							      </td>
+							      <td style="text-align: right; vertical-align: middle">
+							      		<p class="text-danger">  &emsp; 112 in past week (-3%) </p>
+							      </td>
+						    </tr>
+						  </tbody>
+						</table>
+					</button>
+		      </h2>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+		      <div class="card-body bg-light">
+				      	<div class="container-fluid ml-2" style ='background-color: #cecece;'>
+				      	    <p class='text-left'> Servings: 2 </p>
+
+				      	    </div>
+							  <ul class="list-group list-group-flush">
+							    <li class="list-group-item">
+							    	1x &emsp; &emsp; Burger patties  &emsp; &emsp; &emsp; &emsp; SKU#45188 &emsp; &emsp; $4.99
+							    </li>
+							    <li class="list-group-item">
+							    	1x &emsp; &emsp; Brioche buns  &emsp; &emsp; &emsp; &emsp; SKU#45188 &emsp; &emsp; $2.00
+							    </li>
+							    <li class="list-group-item">
+							    	1x &emsp; &emsp; Lettuce  &emsp; &emsp; &emsp; &emsp; &emsp; SKU#45188 &emsp; &emsp; &emsp; $0.50
+							    </li>
+							    <li class="list-group-item">
+							    	1x &emsp; &emsp; Tomatoes &emsp; &emsp; &emsp; &emsp; &emsp; SKU#45188 &emsp; &emsp; $0.50
+							    </li>
+							  </ul>
+							  <br>
+							     <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong">
+										  Show Recipe
+								</button>
+							</div>
+						  </div>
+		      </div>
+
+		  <div class="card rounded-0">
+		    <div class="card-header bg-transparent" id="headingThree">
+		      <h2 class="mb-0">
+		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				          <table class="table-borderless">
+						  <tbody>
+						    <tr>
+						    	<td><img src="../../static/img/fajitas.png" alt="Fajitas Image" style="height:70px; width:70px;"></td>
+						      <td style="text-align: right; vertical-align: middle">
+						     	<h6 style="color:black"> &emsp; Tofu Fajitas</h6>
+						      </td>
+						      <td style="text-align: right; vertical-align: middle">
+							     	<h6 style="color:black"> &emsp; $7.99 • 400 Cal
+							     	</h6>
+					
+							      </td>
+							      </td>
+							      <td style="text-align: right; vertical-align: middle">
+							      	<a href="#">Edit</a> <br> <a href="#">Delete</a>
+							      </td>
+							      <td style="text-align: right; vertical-align: middle">
+							      		<p class="text-success">  &emsp; 76 in past week (+4%) </p>
+							      </td>
+						    </tr>
+						  </tbody>
+						</table>
+		        </button>
+		      </h2>
+		    </div>
+		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+		      <div class="card-body bg-light">
+		        			<div class="container-fluid ml-2" style ='background-color: #cecece;'>
+				      	    <p class='text-left'> Servings: 1 </p>
+				      	    </div>
+
+							  <ul class="list-group list-group-flush">
+							    <li class="list-group-item">
+							    	1x &emsp; &emsp; Firm tofu &emsp; &emsp; &emsp; &emsp; SKU#45188 &emsp; &emsp; &emsp; &emsp; &emsp; $4.99
+							    </li>
+							    <li class="list-group-item">
+							    	1x &emsp; &emsp; Yellow bell pepper  &emsp; &emsp; SKU#45188 &emsp; &emsp; &emsp; &emsp; $1.00
+							    </li>
+							    <li class="list-group-item">
+							    	1x &emsp; &emsp; Red bell pepper  &emsp; &emsp; SKU#45188 &emsp; &emsp; &emsp; &emsp; &emsp; $0.50
+							    </li>
+							    <li class="list-group-item">
+							    	1x &emsp; &emsp; Onion &emsp; &emsp; &emsp;  &emsp; &emsp; SKU#45188 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $0.50
+							    </li>
+							  </ul>
+							  <br>
+							     <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong">
+										  Show Recipe
+										</button>
+							</div>
+						</div>
+					</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+  		</div>
+  	</div>
+
+
+  </div>
+
+
+
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Salmon Sizzle</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        INSTRUCTIONS
+        <br>
+        <br>
+		Preheat oven to 400 degrees. Toss potatoes with 2 tablespoons olive oil, salt and pepper to taste, garlic powder, and 2 teaspoons Italian herb blend. Arrange on a large sheet pan and bake in preheated oven for 10 minutes. 
+		<br>
+		 Arrange salmon fillets and asparagus on the sheet pan. Whisk together melted butter, honey, dijon mustard, and 1/2 teaspoon remaining Italian herb blend. Brush onto salmon fillets. 
+		Drizzle asparagus with remaining 1 tablespoon olive oil, season with salt and pepper to taste and place lemon slices between the asparagus spears. 
+		Bake for 15 minutes until asparagus and potatoes are fork-tender and salmon is cooked through. Serve immediately. 
+		<br>
+		NOTES
+		<br>
+		<br>
+		For DIY Italian herb blend stir together equal parts dried thyme, parsley, oregano, and basil. 
+		<br>
+		Optional additions: Sometimes I add 1/4 cup parmesan cheese to the potatoes or asparagus or 1 tablespoon dried Ranch seasoning to the potatoes.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal -->
+<div class="modal fade" id="create-bundle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Create bundle</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+
+		 <form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Bundle name</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Bundle name">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Servings</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="1">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlSelect2">Select items</label>
+			    <select multiple class="form-control" id="exampleFormControlSelect2">
+			      <option>Salmon fillets • SKU#45192 </option>
+			      <option>Yukon potatoes • SKU#45192</option>
+			      <option>Green beans • SKU#45192</option>
+			      <option>Garlic • SKU#45192</option>
+			    </select>
+			  </div>
+			 <div class="form-group">
+	    		<label for="exampleFormControlTextarea1">Recipe instructions</label>
+	    		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	  		</div>
+	  		<form>
+			  <div class="form-group">
+			    <label for="exampleFormControlFile1">Image</label>
+			    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+			  </div>
+			</form>
+		</form>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Discard</button>
+
+          <a href="/merchant-home-salmon" class="btn btn-outline-secondary" type="submit">Save for later</a>
+
+          <a href="/merchant-home-salmon" class="btn btn-outline-primary"  type="submit">Launch</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

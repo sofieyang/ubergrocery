@@ -45,13 +45,21 @@
     <!-- Begin page content -->
     <main id="content" role="main" class="container">
       <!-- A grey horizontal navbar that becomes vertical on small screens -->
-        <nav class="navbar navbar-expand-sm bg-light">
+        <nav class="navbar navbar-expand-sm bg-light" style="border-bottom:1px solid #cecece">
 
           <!-- Links -->
           <div class="float-left">
           <ul class="navbar-nav float-left">
             <li class='nav-item'> 
               <img src="../../static/img/ubereatslogo.png" alt="Logo Image" style="height:40px; width:140px;">
+            </li>
+          </ul>
+          </div>
+
+          <div class="float-right">
+          <ul class="navbar-nav float-right">
+            <li class='nav-item'> 
+              <img src="../../static/img/profile.png" alt="Profile Image" style="height:40px; width:40px;">
             </li>
           </ul>
           </div>
@@ -86,8 +94,11 @@
 
   <div id="footer">
     <div class="container">
-      <p>Your Company &copy; All Rights Reserved.</p>
+      <!-- <p>Uber Technologies Inc. &copy; All Rights Reserved.</p> -->
       {% block footer %}{% endblock %}
+
+      <br>
+      <br>
     </div>
   </div>
 

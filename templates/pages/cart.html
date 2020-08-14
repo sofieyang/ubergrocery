@@ -1,0 +1,60 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+
+<div class="page-header m-3">
+  <!-- Image -->
+  <div class="text-center">
+	<h5> Your Cart </h5>
+  </div>
+ </div>
+
+ <div class="page-header m-2">
+  <!-- Image -->
+  <div class="text-center">
+	<h4> Piazza Market </h4>
+  </div>
+ </div>
+
+<div class="container-fluid">
+
+<img src="../../static/img/cart-top.png" alt="Cart Image" class="rounded" style="height:100%; width:100%;">
+
+</div>
+
+
+<div class='container-fluid'>
+	<ul class="list-group list-group-flush" id="checkout-fees">
+	   
+	    <li class="list-group-item">
+	    	<h5>Promotion &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; - $0.00 </h5>
+	    </li>
+	    <li class="list-group-item">
+	    	<h5>Taxes &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; $0.00 </h5>
+	    </li>
+	    <li class="list-group-item">
+	    	<h5>Service fee &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $0.00 </h5>
+	    </li>
+	    <li class="list-group-item">
+	    	<h5>Delivery fee &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $0.00
+	    	</h5>
+	    </li>
+	   <span class="border-top"></span>
+	    <li class="list-group-item">
+	    	<h5><b>Total &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $0.00
+	    	</b></h5>
+	    </li>
+	    <span class="border-bottom"></span>
+
+   </ul>
+
+</div>
+
+
+<img src="../../static/img/cart-bottom2.png" alt="Cart Image" style="height:100%; width:100%;">
+</div>
+
+
+
+{% endblock %}

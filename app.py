@@ -53,11 +53,13 @@ def pickedforyou():
 
 @app.route('/recipe-carousel')
 def recipe_carousel():
+    #should still have the individual recipes below it
     return render_template('pages/recipe-carousel.html')
     #return render_template('pages/placeholder.home.html')
 
 @app.route('/recipe-expanded') #this is where you see all the ingredients
 def recipe_expanded():
+    #has 
     return render_template('pages/recipe-expanded.html')
     #return render_template('pages/placeholder.home.html')
 
@@ -70,6 +72,29 @@ def recipe_instructions():
 def cart():
     return render_template('pages/cart.html')
     #return render_template('pages/placeholder.home.html')
+
+@app.route('/cart-salmon')
+def cart_salmon():
+    return render_template('pages/cart-salmon.html')
+    #return render_template('pages/placeholder.home.html')
+
+@app.route('/cart-salmon-burger')
+def cart_salmon_burger():
+    return render_template('pages/cart-salmon-burger.html')
+    #return render_template('pages/placeholder.home.html')
+
+@app.route('/order-placed')
+def order_placed():
+    return render_template('pages/order-placed.html')
+    #return render_template('pages/placeholder.home.html')
+
+@app.route('/merchant-home')
+def merchant_home():
+    return render_template('pages/merchant-home.html')
+
+@app.route('/merchant-home-salmon')
+def merchant_home_salmon():
+    return render_template('pages/merchant-home-salmon.html')
 
 
 # @app.route('/about')

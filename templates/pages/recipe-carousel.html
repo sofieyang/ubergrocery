@@ -16,7 +16,7 @@
       	<div style="float:left;">
 	  	    <h3>Piazza Market</h3>
 	  	    <p>Family-owned grocery • $
-	  	    <br>30-35 Min - Delivery   $0.99 Delivery Fee</p>
+	  	    <br>30-35 Min Delivery	•  $0.99 Delivery Fee</p>
   	    </div>
   	    <div style="float:right;">
   	    	<a href="/cart">
@@ -30,58 +30,292 @@
  <br>
 	<!-- Buttons -->
   <div class='row'>
-    <div class='container-fluid p-3' style="border-bottom:1px solid #cecece">
+    <div class='container-fluid p-3 ml-2' style="border-bottom:1px solid #cecece">
       <a href="/recipe-carousel" class="btn btn-dark btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Recipes</a>
   	  <a href="/pickedforyou" class="btn btn-light btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Picked for You</a>
   	  <a href="/pickedforyou" class="btn btn-light btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Produce</a>
   	  <a href="/pickedforyou" class="btn btn-light btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Snacks</a>
   	  <a href="/pickedforyou" class="btn btn-light btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Beer</a>
+  	  <a href="/pickedforyou" class="btn btn-light btn-sm active" role="button" aria-pressed="true" style="border-radius: 30px">Dairy</a>
     </div>
   </div>
 
 </div>
 
 	<!-- Carousel 1 on Recipes -->
-<div class='row'>
-  <h4>Easy dinners</h4>
-	  <div width=30% height=50px>
-		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="../../static/img/food1.jpg" alt="First slide">
-		      <div class="carousel-caption d-none d-md-block">
-	    		<h5>...</h5>
-	    		<p>...</p>
-	  		  </div>
-		    </div>
-		    <div class="carousel-item">
-		      <img class="d-block w-100" src="../../static/img/food2.jpg" alt="Second slide">
-		       <div class="carousel-caption d-none d-md-block">
-	    		<h5>...</h5>
-	    		<p>...</p>
-	  		  </div>
-		    </div>
-		    <div class="carousel-item">
-		      <img class="d-block w-100" src="../../static/img/food3.jpg" alt="Third slide">
-		       <div class="carousel-caption d-none d-md-block">
-	    		<h5>...</h5>
-	    		<p>...</p>
-	  		  </div>
-		    </div>
-		  </div>
-		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
-	  </div>
+  <div class='container-fluid p-3'>
+	<h4>Easy dinners </h4>
+  </div>
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	    	<div class="card">
+  				<div class="card-body bg-light">
+    				 <table class="table-borderless">
+					  <tbody>
+					    <tr>
+					    	<td><img src="../../static/img/salmon.png" alt="Salmon Image" style="height:70px; width:70px;"></td>
+					      <td style="text-align: right; vertical-align: middle">
+					     	<h6 style="color:black"> &emsp; Salmon Sizzle &emsp; &emsp; $12.99 • 400 Cal</h6>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+  				</div>
+			</div>
+				     
+	    </div>
+	    <div class="carousel-item">
+	      <div class="card">
+  				<div class="card-body bg-light">
+    				 <table class="table-borderless">
+					  <tbody>
+					    <tr>
+					    	<td><img src="../../static/img/food1.jpg" alt="Burger Image" style="height:70px; width:70px;"></td>
+					      <td style="text-align: right; vertical-align: middle">
+					     	<h6 style="color:black"> &emsp; Burger Grill &emsp; &emsp; $7.99 • 400 Cal</h6>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+  				</div>
+			</div>
+  		  </div>
+	    
+	    
+	    <div class="carousel-item">
+	        <div class="card">
+  				<div class="card-body bg-light">
+    				 <table class="table-borderless">
+					  <tbody>
+					    <tr>
+					    	<td><img src="../../static/img/fajitas.png" alt="Fajitas Image" style="height:70px; width:70px;"></td>
+					      <td style="text-align: right; vertical-align: middle">
+					     	<h6 style="color:black"> &emsp; Tofu Fajitas &emsp; &emsp; $7.99 • 400 Cal</h6>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+  				</div>
+			</div>
+  		</div>
+  	</div>
 
+	   <!--  </div> -->
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+
+
+<div class='container-fluid p-3'>
+	<h4>All recipes</h4>
 </div>
 
+
+<!-- Accordion 1 on Recipes -->
+
+<div class="accordion" id="accordionExample">
+	  <div class="card rounded-0">
+	    <div class="card-header bg-transparent" id="headingOne">
+	      <h2 class="mb-0">
+	        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+			          <table class="table-borderless">
+					  <tbody>
+					    <tr>
+					    	<td><img src="../../static/img/salmon.png" alt="Salmon Image" style="height:70px; width:70px;"></td>
+					      <td style="text-align: right; vertical-align: middle">
+					     	<h6 style="color:black"> &emsp; Salmon Sizzle &emsp; &emsp; $12.99 • 400 Cal</h6>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+			        </button>
+	      </h2>
+	    </div>
+
+	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+	      <div class="card-body bg-light">
+			        <div class="container-fluid ml-2" style ='background-color: #cecece;'>
+			      	    <p class='text-left'> Servings: 1 </p>
+
+			      	    </div>
+						  <ul class="list-group list-group-flush">
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Salmon fillet  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $7.99
+						    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Yukon potatoes  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $1.00
+						    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Green beans  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $1.00
+						    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Garlic &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $1.00
+						    </li>
+						  </ul>
+						  <br>
+						     <!-- <a href="#" class="btn btn-outline-secondary">Show recipe</a> -->
+						     <!-- Button trigger modal -->
+								<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong">
+								  Show Recipe
+								</button>
+
+
+						     <a href="/cart-salmon" class="btn btn-outline-dark float-right">
+						     Add to cart
+						     <img src="../../static/img/cart.png" alt="Image" style="height:20px; width:20px;">
+						 	</a>
+						</div>
+					  </div>
+	      </div>
+	    <!-- </div>
+	  </div> -->
+
+  <div class="card rounded-0">
+    <div class="card-header bg-transparent" id="headingTwo">
+      <h2 class="mb-0">
+		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          <table class="table-borderless">
+				  <tbody>
+				    <tr>
+				    	<td><img src="../../static/img/food1.jpg" alt="Burger Image" style="height:70px; width:70px;"></td>
+				      <td style="text-align: right; vertical-align: middle">
+				     	<h6 style="color:black"> &emsp; Burger Grill &emsp; &emsp; $7.99 • 400 Cal</h6>
+				      </td>
+				    </tr>
+				  </tbody>
+				</table>
+		        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body bg-light">
+		      	<div class="container-fluid ml-2" style ='background-color: #cecece;'>
+		      	    <p class='text-left'> Servings: 2 </p>
+
+		      	    </div>
+					  <ul class="list-group list-group-flush">
+					    <li class="list-group-item">
+					    	1x &emsp; &emsp; Burger patties  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $4.99
+					    </li>
+					    <li class="list-group-item">
+					    	1x &emsp; &emsp; Brioche buns  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $2.00
+					    </li>
+					    <li class="list-group-item">
+					    	1x &emsp; &emsp; Lettuce  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $0.50
+					    </li>
+					    <li class="list-group-item">
+					    	1x &emsp; &emsp; Tomatoes &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $0.50
+					    </li>
+					  </ul>
+					  <br>
+					     <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong">
+								  Show Recipe
+								</button>
+					     <a href="/cart-salmon-burger" class="btn btn-outline-dark float-right">
+					     Add to cart
+					     <img src="../../static/img/cart.png" alt="Image" style="height:20px; width:20px;">
+					 	</a>
+					</div>
+				  </div>
+      </div>
+  <!--   </div>
+  </div> -->
+
+  <div class="card rounded-0">
+    <div class="card-header bg-transparent" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		          <table class="table-borderless">
+				  <tbody>
+				    <tr>
+				    	<td><img src="../../static/img/fajitas.png" alt="Fajitas Image" style="height:70px; width:70px;"></td>
+				      <td style="text-align: right; vertical-align: middle">
+				     	<h6 style="color:black"> &emsp; Tofu Fajitas &emsp; &emsp; $7.99 • 400 Cal</h6>
+				      </td>
+				    </tr>
+				  </tbody>
+				</table>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body bg-light">
+        			<div class="container-fluid ml-2" style ='background-color: #cecece;'>
+		      	    <p class='text-left'> Servings: 1 </p>
+		      	    </div>
+
+					  <ul class="list-group list-group-flush">
+					    <li class="list-group-item">
+					    	1x &emsp; &emsp; Firm tofu &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $4.99
+					    </li>
+					    <li class="list-group-item">
+					    	1x &emsp; &emsp; Yellow bell pepper  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $1.00
+					    </li>
+					    <li class="list-group-item">
+					    	1x &emsp; &emsp; Red bell pepper  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $0.50
+					    </li>
+					    <li class="list-group-item">
+					    	1x &emsp; &emsp; Onion &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $0.50
+					    </li>
+					  </ul>
+					  <br>
+					     <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong">
+								  Show Recipe
+								</button>
+					     <a href="#" class="btn btn-outline-dark float-right">
+					     Add to cart
+					     <img src="../../static/img/cart.png" alt="Image" style="height:20px; width:20px;">
+					 	</a>
+					</div>
+				</div>
+			</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Salmon Sizzle</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        INSTRUCTIONS
+        <br>
+        <br>
+		Preheat oven to 400 degrees. Toss potatoes with 2 tablespoons olive oil, salt and pepper to taste, garlic powder, and 2 teaspoons Italian herb blend. Arrange on a large sheet pan and bake in preheated oven for 10 minutes. 
+		<br>
+		 Arrange salmon fillets and asparagus on the sheet pan. Whisk together melted butter, honey, dijon mustard, and 1/2 teaspoon remaining Italian herb blend. Brush onto salmon fillets. 
+		Drizzle asparagus with remaining 1 tablespoon olive oil, season with salt and pepper to taste and place lemon slices between the asparagus spears. 
+		Bake for 15 minutes until asparagus and potatoes are fork-tender and salmon is cooked through. Serve immediately. 
+		<br>
+		NOTES
+		<br>
+		<br>
+		For DIY Italian herb blend stir together equal parts dried thyme, parsley, oregano, and basil. 
+		<br>
+		Optional additions: Sometimes I add 1/4 cup parmesan cheese to the potatoes or asparagus or 1 tablespoon dried Ranch seasoning to the potatoes.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p> -->
 

@@ -1,0 +1,120 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+
+<div class="page-header m-3">
+  <!-- Image -->
+  <div class="text-center">
+	<h5> Your Cart </h5>
+  </div>
+ </div>
+
+ <div class="page-header m-2">
+  <!-- Image -->
+  <div class="text-center">
+	<h4> Piazza Market </h4>
+  </div>
+ </div>
+
+<div class="container-fluid">
+
+<img src="../../static/img/cart-top.png" alt="Cart Image" class="rounded" style="height:100%; width:100%;">
+
+</div>
+
+<div class='container-fluid'>
+	<ul class="list-group list-group-flush">
+	    <li class="list-group-item">
+
+	    	<div class='row m-3'>
+	    		<div class='column'>
+	    			<img src="../../static/img/one.png" alt="One Image" style="height:30px; width:30px;">
+	    		</div>
+	    	 	<div class='column'>
+	    	 		<h5 > &emsp; &emsp; &emsp; Salmon Sizzle  &emsp; &emsp; &emsp; $12.99 </h5>
+	    	 	</div>
+	    	</div>
+	    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Salmon fillet  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+						    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Yukon potatoes  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+						    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Green beans  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+						    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Garlic &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+						    </li>
+
+   </ul>
+
+</div>
+
+<div class='container-fluid'>
+	<ul class="list-group list-group-flush">
+	    <li class="list-group-item">
+
+	    	<div class='row m-3'>
+	    		<div class='column'>
+	    			<img src="../../static/img/one.png" alt="One Image" style="height:30px; width:30px;">
+	    		</div>
+	    	 	<div class='column'>
+	    	 		<h5 > &emsp; &emsp; &emsp; Burger Grill  &emsp; &emsp; &emsp; $7.99 </h5>
+	    	 	</div>
+	    	</div>
+	    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Burger patties  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+						    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Brioche buns  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+						    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Lettuce  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+						    </li>
+						    <li class="list-group-item">
+						    	1x &emsp; &emsp; Tomatoes &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+						    </li>
+
+   </ul>
+
+</div>
+
+<div class='container-fluid'>
+	<ul class="list-group list-group-flush" id="checkout-fees">
+	   
+	    <li class="list-group-item">
+	    	<h5>Promotion &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; - $1.50 </h5>
+	    </li>
+	    <li class="list-group-item">
+	    	<h5>Taxes &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; $0.00 </h5>
+	    </li>
+	    <li class="list-group-item">
+	    	<h5>Service fee &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $1.50 </h5>
+	    </li>
+	    <li class="list-group-item">
+	    	<h5>Delivery fee &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $0.99
+	    	</h5>
+	    </li>
+	   <span class="border-top"></span>
+	    <li class="list-group-item">
+	    	<h5><b>Total &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $21.97
+	    	</b></h5>
+	    </li>
+	    <span class="border-bottom"></span>
+
+   </ul>
+
+</div>
+
+
+<img src="../../static/img/cart-bottom2.png" alt="Cart Image" style="height:100%; width:100%;">
+</div>
+
+<a href="/order-placed" class="btn btn-dark btn-lg btn-block rounded-0" role="button" width=80%>Place order</a>
+
+
+{% endblock %}
